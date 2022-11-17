@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
   const getHomes = () => {
-    axios.get('https://dev.everdays.com/v2/public/providers?state=mi')
+    axios.get('https://api.quotable.io/random')
     .then(res => {
       console.log(res)
     }).catch(err => {
