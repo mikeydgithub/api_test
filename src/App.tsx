@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello World!
+      <button>Get Homes</button>
     </div>
   );
 }
