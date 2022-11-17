@@ -10,7 +10,7 @@ function App() {
   // all states will return an array
   const [state, setState] = useState([])
 
-
+  // dev.everdays.com/v2/public/providers?state=mi
 
   // useEffect in a callback function
   useEffect (() => {
@@ -32,3 +32,24 @@ function App() {
 }
 
 export default App;
+
+
+// import axios from 'axios';
+
+// function App() {
+//   const getHomes = () => {
+//     axios.get('https://api.quotable.io/random')
+//     .then(res => {
+//       console.log(res)
+//     }).catch(err => {
+//       console.log(err)
+//     })
+//   }
+  
+//   return (
+//     <div className="App">
+//       <button onClick={getHomes}>Get Homes</button>
+//     </div>
+//    );
+//   }
+//   export default App;
